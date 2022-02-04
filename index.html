@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="bodyWrapper">
+        <div class="navbar">
+            <span class="navIcon"><i class="bi bi-list"></i></span>
+            <ul>
+                <li class="navbarOptions">
+                    <div><i class="bi bi-house-door-fill"></i></div>Home
+                </li>
+                <li class="navbarOptions">
+                    <div><i class="bi bi-compass"></i></div>Explore
+                </li>
+                <li class="navbarOptions">
+                    <div><i class="bi bi-collection-play"></i></div>Subscriptions
+                </li>
+                <li class="navbarOptions">
+                    <div><i class="bi bi-play-btn"></i></div></span>Library
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <header>
+                <div class="headerTop">
+                    <div class="logo">
+                        <img class="logoImage" src="assets/youtube.jpg" alt="YouTube">
+                    </div>
+                    <div class="search">
+                        <div class="searchWrapper">
+                            <input type="text" placeholder="Search">
+                            <button class="searchButton"><i class="bi bi-search"></i></button>
+                        </div>
+                        <div class="micButton"><i class="bi bi-mic-fill"></i></div>
+
+                    </div>
+                    <div class="headerTopIcons">
+                        <ul>
+                            <li class="headerIcon headericonEach"><i class="bi bi-camera-video"></i></li>
+                            <li class="headerIcon headericonEach"><i class="bi bi-grid-3x3-gap"></i></li>
+                            <li class="headerIcon headericonEach"><i class="bi bi-bell"></i><span
+                                    class="number">2</span></li>
+                            <li class="headerUserProfile headericonEach"><img id="userImage" src="assets/user.jpg"
+                                    alt=""></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="headerBottom">
+                    <ul class="headerTags">
+                        <div id="All" class="headerTagWrapper">
+                            <li class="Headertag">All</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Shark Tank</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Game Shows</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Computer programming</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Comedies</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Cooking shows</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Beauty</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Haul video</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Music</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Puzzles</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">New to You</li>
+                        </div>
+                        <div class="headerTagWrapper">
+                            <li class="Headertag">Watched</li>
+                        </div>
+                    </ul>
+                </div>
+            </header>
+            <main>
+                <div class="mainWrapper">
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb1.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/Pepcoding.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">
+                                    <p>Shell Rotate - solution | 2-D Array | Data Structures and Algorithms in...</p>
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">Pepcoding</p>
+                                </div>
+                                <div class="views">
+                                    <p>18K views . 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb2.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/triedAndRefused.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">
+                                    <p>Finnaly! An Indian Reality Show That Educates & We can Be Proud Of! |...</p>
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">Tried&Refused Productions.</p>
+                                </div>
+                                <div class="views">
+                                    <p>269K views . 3 weeks ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb3.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/codeWithHarry.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">
+                                    <p>List in C++ STL | C++ Tutorial for Beginners #72</p>
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">CodeWithHarry</p>
+                                </div>
+                                <div class="views">
+                                    <p>66K views . 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb4.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/GauravGupta.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">
+                                    <p>Car-O-Bar |Stand up comedy by Gaurav Gupta</p>
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">Gaurav Gupta</p>
+                                </div>
+                                <div class="views">
+                                    <p>2.5M views . 3 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb5.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/SET.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">
+                                    <p>Mattery Of Safety | Shark Tank India - Ep 9 | Full Episode | 30...</p>
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">SET India</p>
+                                </div>
+                                <div class="views">
+                                    <p>3.3M views . 1 month ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb6.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/Thugesh.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">Why Ekta Kapoor Needs to be Stopped | Thugesh</div>
+                                <div class="channelName">
+                                    <p class="channelNameText">Thugesh</p>
+                                </div>
+                                <div class="views">
+                                    <p>2.5M views . 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb7.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/Soniagarg.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">My Ultimate Wardrobe Collection Over Years | Organising hacks,../
+                                </div>
+                                <div class="channelName">
+                                    <p class="channelNameText">Sonia Garg</p>
+                                </div>
+                                <div class="views">
+                                    <p>373K views . 2 months ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="thumbnail">
+                            <img class="thumbnailImage" src="assets/thumb8.jpg" alt="">
+                        </div>
+                        <div class="videoInfo">
+                            <div class="profilePicture">
+                                <img class="channelPicture" src="assets/GauravGupta.jpg" alt="">
+                            </div>
+                            <div class="videoInfoText">
+                                <div class="title">DELHI NCR | Stand Up Comedy by Gaurav Gupta</div>
+                                <div class="channelName">
+                                    <P class="channelNameText">Gaurav Gupta</P>
+                                </div>
+                                <div class="views">
+                                    <p>5.7M views . 2 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
